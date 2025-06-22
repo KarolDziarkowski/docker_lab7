@@ -24,9 +24,9 @@ jobs:
     
     - name: prepare environemnt 
       run: |
-         cd ./LAB_7/env_416799 && python -m pip install -r requirements.txt
+         cd ./env_416799 && python -m pip install -r requirements.txt
       
 
     - name: Run test
       run: |
-        cd ./LAB_7/env_416799 && pytest calculator_test.py
+        cd ./env_416799 && pytest calculator_test.py
